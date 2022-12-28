@@ -58,7 +58,11 @@ h1,h2,h3,h4,h5,h6,p,ul {
 }
 /* header */
 .header {
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 1440px;
+box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .logo {
 color: var(--accent-color);
@@ -154,7 +158,10 @@ transition: color var(--anim-fast);
 
 /* hero */
 .hero {
-width: 1600рх;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 1440px;
 padding-top: 192px;
 padding-bottom: 192px;  
 text-align: center;
@@ -207,6 +214,10 @@ background-size: cover;
 
     /* section */
 .section {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 1440px;
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -259,11 +270,15 @@ margin: 0;
   margin-bottom: 0px;
 }
 .values-list .item + .item {
-margin-left: 24px;
+  margin-left: 24px;
 }
 
 /* team */
 .section-team {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1440px;
   background-color: #F4F4FD;
   padding-top: 120px;
   padding-bottom: 120px;
@@ -315,6 +330,12 @@ margin-left: 24px;
   height: 40px;
   border-radius: 50%;
   background-color: var(--accent-color);
+  transition: background-color var(--anim-fast);
+ }
+
+ .social-list-link:focus,
+ .social-list-link:hover {
+  background-color: #404BBF;
  }
  .social-list-icon {
   fill: #F4F4FD;
@@ -353,7 +374,7 @@ margin-left: 24px;
   min-width: 170px;
   padding: 16px 32px; 
   border: transparent;
-  transition: color var(--anim-fast); background-color var(--anim-fast); box-shadow var(--anim-fast);
+  transition: background-color var(--anim-fast); box-shadow var(--anim-fast);
 }
 .button.primary:hover,
 .button.primary:focus {
@@ -432,7 +453,6 @@ flex-wrap: wrap;
   top: 0;
   width: 100%;
   height: 100%;
-  overflow-y: scroll;
   transform: translate(0,100%);
   transition: transform var(--anim-fast);
   padding-top: 40px;
@@ -480,6 +500,10 @@ flex-wrap: wrap;
 
 /* Footer */
 .footer-link {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1440px;
   height: 310px;
   background-color: var(--primery-tetx-color);
   padding-top: 100px;
